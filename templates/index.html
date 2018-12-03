@@ -1,0 +1,56 @@
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+                  <img class="max-width:100%" src={{featured_image_url}} alt="Feature Image">
+          </div>
+          
+          <div class="row"> 
+              <div class="col-sm-6">
+                  <h1>Latest Mars News</h1>
+                  <h3>{{NASA_title}}</h3>
+                  <hr/>
+                  <p>{{NASA_descrip}}</p> 
+                  <hr/>
+                  <p>Mars Facts</p>
+                  <p>{{mars_facts}}</p>   
+              </div>
+              <div class="col-sm-6">
+                  <h1>Current Weather on Mars</h1>
+                  <span>{{current_weather}}</span>
+                  <hr/>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <img class="img-responsive" src={{image_link1}} alt="Mars Image">
+                          <p>Cerberus Hemisphere Enhanced</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <img class="img-responsive" src={{image_link2}} alt="Mars Image">
+                          <p>Schiaparelli Hemisphere Enhanced</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <img class="img-responsive" src={{image_link3}} alt="Mars Image">
+                          <p>Syrtis Major Hemisphere Enhanced</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <img class="img-responsive" src={{image_link4}} alt="Mars Image">
+                          <p>Valles Marineris Hemisphere Enhanced</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+  </html>
